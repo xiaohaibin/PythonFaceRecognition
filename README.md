@@ -9,7 +9,7 @@
 
 **1\. 首先[https://github.com/davisking/dlib](https://github.com/davisking/dlib)  下载整个zip**
 ``` 
-git clone https://github.com/davisking/dlib](https://github.com/davisking/dlib
+git clone https://github.com/davisking/dlib
 ``` 
 
 
