@@ -129,7 +129,7 @@ for face_landmarks in face_landmarks_list:
 **运行效果：**
 ![运行结果](https://upload-images.jianshu.io/upload_images/1956769-eb8d26c533952d5e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####编写人脸识别程序
+#### 编写人脸识别程序
 >注意：这里使用了 python-opencv，一定要配置好了opencv才能运行成功。
 opencv选择跟自己python版本相匹配的版本，可以在这个网站（https://www.lfd.uci.edu/~gohlke/pythonlibs/）下载opencv_python-2.4.13.5-cp27-cp27m-win_amd64 .whl(我的python版本是2.7所以选择该版本安装)，安装完成之后，打开 cmd 输入 import cv2 没有提示任何错误说明安装成功。
 
@@ -254,14 +254,14 @@ cv2.destroyAllWindows()
 
 ### 踩坑
 
-####1.解决 cl.exe 找不到的问题
+#### 1.解决 cl.exe 找不到的问题
 
 >在装VS2015时，默认是不安装C++，你需要重新运行setup ，然后选择modify,选择 language 下的C++，然后开始安装，就可以解决问题了
 –来自[http://stackoverflow.com/](http://stackoverflow.com/)
 
 ![VS2015配置.png](https://upload-images.jianshu.io/upload_images/1956769-79c671dd67f62f40.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####2.解决执行 pip install face_recognition 出错，报SSL Error
+#### 2.解决执行 pip install face_recognition 出错，报SSL Error
 
 ![SSL Error](https://upload-images.jianshu.io/upload_images/1956769-07dc6eee09aa8160.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
